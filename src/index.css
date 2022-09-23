@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+:root {
+  --font-family: "Manrope", sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+  /* contrast of each --------------------------------------------------------> */
+  /* yellowish orange */
+  --gradient1-text: linear-gradient(90deg, #ffff00 0%, #ff3b00 100%);
+  /* pinkish yellow */
+  --gradient2-text: linear-gradient(90deg, #ffff00 0%, #ee82ee 100%);
+  /* swap blue */
+  --gradient3-text: linear-gradient(90deg, #0000ff 0%, #008000 100%);
+  /* half rainbow */
+  --gradient4-text: linear-gradient(
+    90deg,
+    #ffff00 0%,
+    #00bcd4 50%,
+    #ee82ee 100%
+  );
+  /* barcelona */
+  --gradient5-text: linear-gradient(90deg, #802000 0%, #ee82ee 100%);
+
+  --color-bg: #031b34;
+  --color-footer: #031b34;
+  --color-blog: #042c54;
+  --color-text: #81afdd;
+  --color-subtext: #ff8a71;
+}

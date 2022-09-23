@@ -1,0 +1,50 @@
+.PopUp_app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PopUp_inner {
+  display: flex;
+  /* justify-content: right; */
+  /* align-items: relative; */
+  flex-direction: column;
+  /* position: relative; */
+  padding: 2rem;
+  width: 100%;
+  max-width: 640px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 1em;
+}
+
+.close-btn {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: 0rem;
+  right: 0rem;
+}
+
+.PopUp_inner button {
+  margin: 0;
+  position: absolute; /* div ley space nakhana absolute */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40px;
+  color: rgb(224, 17, 17);
+  background-color: transparent;
+  font-size: medium;
+  transition: all 0.2s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.PopUp_inner button:hover {
+  transform: scale(2);
+}

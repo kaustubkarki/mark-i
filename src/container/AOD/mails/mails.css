@@ -1,0 +1,27 @@
+.Mails_main {
+  background-color: #492d7e;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.Mails_main p {
+  font-size: 11px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  font-size: medium;
+  display: inline;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Mails_main img {
+  width: 17px;
+  height: auto;
+  color: #fff;
+  float: left;
+  vertical-align: center;
+  cursor: pointer;
+}

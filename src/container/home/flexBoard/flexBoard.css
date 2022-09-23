@@ -1,0 +1,140 @@
+.mainFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url("F:\All-spark\os\marki\src\assets\background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 70vh; */
+  width: 100%;
+  position: relative;
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.7);
+  z-index: 0;
+}
+
+.mainFlex_text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #000;
+}
+
+.mainFlex_text h1 {
+  color: #492d7e;
+  flex-wrap: wrap;
+  width: 430px;
+  font-size: 40px;
+  font-family: Montserrat, sans-serif;
+  margin: 1rem 0 1rem 0;
+  text-align: left;
+}
+
+.mainFlex_text p {
+  max-width: 430px;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+  margin: 1rem 0 1rem 0;
+}
+.mainFlex_image {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.mainFlex_image img {
+  max-width: 430px;
+  max-height: 140px;
+}
+
+.mainFlex_text-button {
+  margin: 2rem 0 2rem 0;
+}
+
+.mainFlex_text-button button {
+  width: 100%;
+  padding: 1rem 2.2rem;
+  text-align: center;
+  background-color: transparent;
+  border: solid rebeccapurple;
+  color: rebeccapurple;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.mainFlex_text-button button:hover {
+  background: #492d7e;
+  color: #fff;
+  transition: 199ms;
+}
+
+@media screen and (max-width: 850px) {
+  .mainFlex_text h1 {
+    width: 400px;
+  }
+  .mainFlex_text p {
+    max-width: 360px;
+  }
+  .mainFlex_image img {
+    max-width: 340px;
+    max-height: 145.71px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .mainFlex {
+    flex-direction: column;
+  }
+  .mainFlex_text h1 {
+    width: 330px;
+  }
+  .mainFlex_text p {
+    max-width: 300px;
+  }
+  .mainFlex_image img {
+    max-width: 340px;
+    max-height: 145.71px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mainFlex {
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .mainFlex_text h1 {
+    width: 300px;
+  }
+  .mainFlex_text p {
+    max-width: 240px;
+  }
+  .mainFlex_image img {
+    max-width: 340px;
+    max-height: 145.71px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mainFlex {
+    background-size: contain;
+    background-repeat: repeat;
+  }
+  .mainFlex_text h1 {
+    font-size: 24px;
+    width: 260px;
+  }
+  .mainFlex_text p {
+    max-width: 240px;
+    font-size: 11px;
+  }
+  .mainFlex_image img {
+    max-width: 340px;
+    max-height: 145.71px;
+  }
+}

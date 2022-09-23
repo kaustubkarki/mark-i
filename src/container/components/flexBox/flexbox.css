@@ -1,0 +1,93 @@
+.flexBox_main {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flexBox_row1 {
+  display: flex;
+  flex-direction: row;
+  /* ^ yo overwrite garxa tei ni, sexy lag raha tha */
+}
+.content1 {
+  display: flex;
+  flex-direction: row; /* mobile screen ko lai column*/
+  align-items: center;
+  justify-content: center;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: row; /* mobile screen ko lai column*/
+  align-items: center;
+  justify-content: center;
+}
+.flexBox-image {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.flexBox-image img {
+  max-width: 90px;
+  max-height: 90px;
+  border-radius: 1%;
+  padding: 50px;
+  color: rgb(149, 153, 149);
+  transition: transform 0.2s; /* Animation */
+  width: 200px;
+  height: 200px;
+
+  margin: 0 auto;
+}
+
+.flexBox-image img:hover {
+  transform: scale(1.15);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.flexBox_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.flexBox_content h2 {
+  color: aquamarine;
+  width: 15rem;
+}
+
+.flexBox_content p {
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 100;
+  width: 20rem;
+}
+
+@media screen and (max-width: 650px) {
+  .content1 {
+    flex-direction: column;
+  }
+  .content2 {
+    flex-direction: column;
+  }
+  .flexBox_content h2 {
+    font-size: 18px;
+  }
+  .flexBox_content p {
+    font-size: 16px;
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content1 {
+    flex-direction: column;
+  }
+  .content2 {
+    flex-direction: column;
+  }
+}

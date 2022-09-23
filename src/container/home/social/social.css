@@ -1,0 +1,60 @@
+.mainSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.mainSocial_image {
+  padding: 1rem;
+}
+
+.mainSocial_image img {
+  max-width: 374.4px;
+  max-height: 374.4px;
+}
+
+.mainSocial_text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  flex-wrap: wrap;
+  max-width: 24.3rem;
+}
+
+.mainSocial_text-element_dividor {
+  width: 9.3rem;
+  border-top: 3px solid #404040;
+}
+
+.mainSocial_text-heading {
+  margin-bottom: 1rem;
+}
+
+.mainSocial_text-heading h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  max-width: 354px;
+}
+.mainSocial_text-p {
+  margin: 1rem;
+  font-size: 16px;
+  margin: 18px 0 18px 0;
+}
+
+.mainSocial_text-p p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 18px 0 18px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .mainSocial_image img {
+    width: 20em;
+  }
+}

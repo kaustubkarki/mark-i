@@ -1,0 +1,22 @@
+.companyImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.companyImage img {
+  max-height: 180px;
+  max-width: 101.5px;
+  margin: 1.5rem;
+}
+
+@media screen and (max-width: 680px) {
+  .companyImage {
+    flex-direction: column;
+  }
+  .companyImage img {
+    max-height: 140px;
+    max-width: 78.75px;
+  }
+}
