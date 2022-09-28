@@ -13,15 +13,15 @@ import Enterprise from "./container/NOD/Enterprise/Enterprise";
 import Security from "./container/NOD/Security/Security";
 import CloudsExport from "./container/NOD/Clouds/CloudsExport";
 import Mails from "./container/AOD/mails/Mails";
+import ScrollToTop from "./container/components/scrolltotop/ScrollRestoration";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <ScrollToTop />
         <Mails />
         <Navbar />
-        {/* <HealthIt /> */}
-        {/* <Enterprise /> */}
         <Routes>
           <Route path="/" element={<MainHome />} />
           <Route path="/form" element={<Form />} />
