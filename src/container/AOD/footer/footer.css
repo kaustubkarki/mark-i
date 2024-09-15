@@ -154,4 +154,7 @@
     font-size: 27px;
     line-height: 38px;
   }
+  /* .myapp__footer-links div p {
+    display: none !important;
+  } */
 }

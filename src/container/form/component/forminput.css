@@ -42,4 +42,4 @@ input:invalid[focused="true"] ~ span {
   .formInput {
     width: 240px;
   }
-} ;
+}

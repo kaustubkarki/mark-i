@@ -39,7 +39,7 @@ const Footer = () => (
         <p>HealthIT Interoperability Consultation</p>
       </div>
       {/* Columb 2 */}
-      <div className="myapp__footer-links_div">
+      {/* <div className="myapp__footer-links_div">
         <h4>
           <u>Enterprise</u>
         </h4>
@@ -48,9 +48,9 @@ const Footer = () => (
         <p>Container Based Services</p>
         <p>OpenSource Application Development</p>
         <p>DevOps/SysOps</p>
-      </div>
+      </div> */}
       {/* column 3 */}
-      <div className="myapp__footer-links_div">
+      {/* <div className="myapp__footer-links_div">
         <h4>
           <u>Cloud</u>
         </h4>
@@ -58,16 +58,16 @@ const Footer = () => (
         <p>GCP</p>
         <p>Azure</p>
         <p>Huawei Cloud</p>
-      </div>
+      </div> */}
       {/* Columb 4 */}
-      <div className="myapp__footer-links_div">
+      {/* <div className="myapp__footer-links_div">
         <h4>
           <u>Security and governance</u>
         </h4>
         <p>It Audit</p>
         <p>Information Security and Consulation</p>
         <p>VA/PT</p>
-      </div>
+      </div> */}
 
       {/* ADRESS COLUMB */}
       <div className="myapp__footer-links_div">
